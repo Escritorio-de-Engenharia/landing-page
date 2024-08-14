@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/sections/Header";
+import { cn } from "@/lib/utils";
+import Hero from "@/components/sections/Hero";
+import Groups from "@/components/sections/Groups";
+import Projects from "@/components/sections/Projects";
+import About from "@/components/sections/About";
+import Members from "@/components/sections/Members";
+import Partners from "@/components/sections/Partners";
+import Footer from "@/components/sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +24,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br">
+      <body className={cn(inter.className, "bg-[#2B2B2B] overflow-x-hidden")}>
+        <Header />
+        <Hero />
+        <Groups />
+        <Projects />
+        <About />
+        <Members />
+        <Partners />
+        <Footer />
+      </body>
     </html>
   );
 }
