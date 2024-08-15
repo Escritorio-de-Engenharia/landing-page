@@ -26,14 +26,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={cn(inter.className, "bg-[#2B2B2B] overflow-x-hidden")}>
-        <Header />
-        <Hero />
-        <Groups />
-        <Projects />
-        <About />
-        <Members />
-        <Partners />
-        <Footer />
+        {children}
       </body>
     </html>
   );
