@@ -7,13 +7,10 @@ export default function About() {
             <h3 className="border-b-2 border-primary text-5xl w-fit text-white py-4">Sobre nós</h3>
             <div>
                 <p className="text-base text-white text-left font-light">
-                    Pariatur deserunt ea incididunt ad proident. Sunt quis deserunt ullamco et pariatur esse ea esse et ullamco ad elit magna. Sint tempor voluptate magna laboris. In duis reprehenderit ipsum irure nostrud aliqua proident adipisicing anim adipisicing do consectetur qui incididunt. Minim reprehenderit veniam qui commodo minim dolor officia esse cupidatat fugiat fugiat.
+                    Reunindo alunos dos cursos de Ciência da Computação, Engenharia de Computação e Engenharia de Produção, o Escritório de Engenharia oferece diversos serviços na área, permitindo que estudantes aprimorem sua formação através da aplicação dos conhecimentos adquiridos nas aulas. Os alunos participantes da Unidade são selecionados a cada semestre.
                     <br />
                     <br />
-                    Eu dolore incididunt in elit laborum do tempor veniam fugiat id. Cillum Lorem sit pariatur proident voluptate non commodo non id exercitation exercitation ullamco dolore. Aute elit Lorem tempor deserunt pariatur elit do sit consectetur. Minim sunt magna tempor tempor. Nulla consectetur pariatur irure mollit occaecat ipsum cillum velit occaecat ullamco laborum duis proident laborum. Irure Lorem ad duis reprehenderit proident.
-                    <br />
-                    <br />
-                    Lorem sit nostrud consectetur laborum sint. Sint Lorem nostrud amet non reprehenderit dolor. Id non id pariatur quis. Et in labore eiusmod enim velit minim ipsum anim et exercitation cillum magna. Enim tempor consequat sint velit mollit ex.
+                    Somos um grupo unido orientado pelos professores MSc. Pedro Henrique Sales Girotto e MSc. Luciana de Azevedo Vieira, junto a coordenadora de Engenharia de Computação e Ciência da Computação MSc. Alessandra Natasha, que trabalham em conjunto com os alunos para oferecer o melhor ensino e a melhor formação. Nossa missão é ajudar os alunos a se formarem em áreas de conhecimento e experiência que os aperfeiçoem.
                 </p>
             </div>
             <Button>SAIBA MAIS...</Button>
